@@ -233,22 +233,22 @@ export const highlightSyntax = (code, language) => {
                     <div className="relative z-10 lg:text-left text-center">
                         <div className="inline-flex items-center space-x-2 px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full mb-6">
                             <Sparkles className="w-4 h-4 text-blue-400"/>
-                            <span className="text-sm text-blue-300">Introducing CodeFlow AI</span>
+                            <span className="text-sm text-blue-300">CodeFlow хиймэл оюун ухааныг танилцуулж байна</span>
                         </div>
 
                         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                            <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent block mb-2">Code Faster</span>
-                            <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent block mb-2">Build Better</span>
-                            <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent block">With AI</span>
+                            <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent block mb-2">Код хурдан</span>
+                            <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent block mb-2">Илүү сайн бүтээл</span>
+                            <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent block">Хиймэл оюун ухаанаар</span>
                         </h1>
                         
                         <p className="text-base lg:text-lg text-gray-400 mb-8 leading-relaxed max-w-xl lg:mx-0 mx-auto">
-                           "Vibe coding" as a concept only emerged in early 2025, but it's already one of the most talked-about usages of large language models.
+                           "Vibe coding" гэдэг ойлголт 2025 оны эхээр л гарч ирсэн боловч энэ нь том хэлний загваруудын хамгийн их яригддаг хэрэглээний нэг болжээ.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center lg:justify-start justify-center gap-4">
                             <button className="group w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 rounded-lg font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-2 shadow-lg shadow-blue-500/30">
-                                <span>Start Coding Free</span>
+                                <span>Үнэгүй код бичиж эхлээрэй</span>
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300"/>
                             </button>
                             
@@ -256,7 +256,7 @@ export const highlightSyntax = (code, language) => {
                                 <div className="p-2 bg-white/10 rounded-full group-hover:bg-white/20 duration-200 transition-colors">
                                     <Play className="w-4 h-4 fill-white"/>
                                 </div>
-                                <span>Watch Demo</span>
+                                <span>Демо үзэх</span>
                             </button>
                         </div>
                     </div>
@@ -299,7 +299,7 @@ export const highlightSyntax = (code, language) => {
                                             <div className="w-3 h-3 rounded-full bg-yellow-500 hover:bg-yellow-400 transition-colors cursor-pointer shadow-lg shadow-yellow-500/50"/>
                                             <div className="w-3 h-3 rounded-full bg-green-500 hover:bg-green-400 transition-colors cursor-pointer shadow-lg shadow-green-500/50"/>
                                         </div>
-                                        <span className="text-sm text-gray-300 font-medium">CodeFlow AI</span>
+                                        <span className="text-sm text-gray-300 font-medium">КодФлоу хиймэл оюун ухаан</span>
                                     </div>
                                     <ChevronDown className="w-4 h-4 text-gray-400 hover:text-gray-300 transition-colors cursor-pointer"/>
                                 </div>
